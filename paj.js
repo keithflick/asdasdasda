@@ -24,7 +24,7 @@ $('<div id="MBob_config">').css({
     "background-color": "aqua",
     "font-size": "10px",
 }).appendTo("#centerbox2");
-MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów" value="Kobold nożownik, Kobold łucznik, Kobold">';
+MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów" value="Harpia, Grzechotnik, Czarny orzeł, Kobra, Orzeł górski, Zgniła galareta, Wodna galareta, Trująca galareta">';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><br/><center><button onclick="MBob.start1()">START BOT</button>';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><center><button onclick="MBob.stop1()">STOP BOT</button>';
 MBob.drop = function() {
