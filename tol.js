@@ -24,7 +24,7 @@ $('<div id="MBob_config">').css({
     "background-color": "aqua",
     "font-size": "10px",
 }).appendTo("#centerbox2");
-MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów" value="Szkielet rycerza, Szkielet łucznika, Szkarłatny rycerz">';
+MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów" value="Szkielet rycerza, Szkielet łucznika, Szkarłatny rycerz, Szkielet hieny olbrzymiej">';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><br/><center><button onclick="MBob.start1()">START BOT</button>';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><center><button onclick="MBob.stop1()">STOP BOT</button>';
 MBob.drop = function() {
