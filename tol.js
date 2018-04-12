@@ -24,7 +24,7 @@ $('<div id="MBob_config">').css({
     "background-color": "aqua",
     "font-size": "10px",
 }).appendTo("#centerbox2");
-MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów" value="Żywy ogień, Piekielny żar">';
+MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów" value="Dżin, Zabalsamowany wyznawca Seta, Antyczny wojownik, Chodzące truchło, Mumia wysokiego kapłana, Pradawna mumia">';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><br/><center><button onclick="MBob.start1()">START BOT</button>';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><center><button onclick="MBob.stop1()">STOP BOT</button>';
 MBob.drop = function() {
