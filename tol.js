@@ -24,7 +24,7 @@ $('<div id="MBob_config">').css({
     "background-color": "aqua",
     "font-size": "10px",
 }).appendTo("#centerbox2");
-MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów" value="Moloch, Moloch wojownik, Moloch czarnoksiężnik, Moloch klucznik">';
+MBob_config.innerHTML = '<center><input id="MBob_nazpotwor" placeholder="Nazwy potworów" value="Szaman wody, Szaman ziemi, Szaman wiatru, Szaman żywiolu ognia, Łowca wiatru, Waleczny ork, Ork szybkie cięcie, Krwawy wojownik, Łowca ogrów, Odważny ork, Łowca głów">';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><br/><center><button onclick="MBob.start1()">START BOT</button>';
 MBob_config.innerHTML = MBob_config.innerHTML + '<br/><center><button onclick="MBob.stop1()">STOP BOT</button>';
 MBob.drop = function() {
